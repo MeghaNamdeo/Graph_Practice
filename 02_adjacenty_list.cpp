@@ -52,7 +52,7 @@ output
 
 tc and sc :O(v+e)
 
-//undirected_weight_graph
+//undirected_weighted_graph
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -72,7 +72,7 @@ int main()
     for(int i=0;i<vertex;i++)
     {
         cout<<i<<"->";
-        for(int j =0;j<AdjList[i].size();j++)
+        for(int j = 0;j<AdjList[i].size();j++)
         {
             cout<<"("<<AdjList[i][j].first<<", "<<AdjList[i][j].second<<")";
             

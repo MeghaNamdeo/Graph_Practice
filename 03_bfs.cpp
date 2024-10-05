@@ -3,8 +3,11 @@
  vector<int> bfsOfGraph(int V, vector<int> adj[]) {
       //create queue
       queue<int>q;
+
       q.push(0);
+
       vector<bool>visited(V,0);
+      
       visited[0]=1;
       vector<int>ans;
       while(!q.empty())
